@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.wso2.lc.executor.sample
+Built-By: thushara
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1464598559152
+Import-Package: javax.mail,javax.mail.internet,org.apache.axiom.om,org
+ .apache.axis2.context,org.apache.axis2.description,org.apache.axis2.e
+ ngine,org.apache.axis2.transport.mail,org.apache.commons.logging,org.
+ wso2.carbon.context,org.wso2.carbon.governance.registry.extensions.in
+ terfaces,org.wso2.carbon.governance.registry.extensions.internal,org.
+ wso2.carbon.registry.core,org.wso2.carbon.registry.core.jdbc.handlers
+ ,org.wso2.carbon.registry.eventing.internal,org.wso2.carbon.securevau
+ lt,org.wso2.lc.executor.sample,org.wso2.lc.executor.sample.Constants,
+ org.wso2.lc.executor.sample.executors,org.wso2.lc.executor.sample.uti
+ ls,org.wso2.securevault,org.wso2.securevault.secret
+Fragment-Host: org.wso2.carbon.registry.core
+Tool: Bnd-0.0.238
+Export-Package: org.wso2.lc.executor.sample.Constants,org.wso2.lc.exec
+ utor.sample.executors;uses:="org.apache.axiom.om,org.wso2.securevault
+ ,org.wso2.lc.executor.sample,org.wso2.carbon.context,org.wso2.carbon.
+ securevault,org.wso2.carbon.registry.core,org.wso2.carbon.governance.
+ registry.extensions.internal,org.apache.commons.logging,org.wso2.lc.e
+ xecutor.sample.Constants,org.wso2.securevault.secret,org.wso2.lc.exec
+ utor.sample.utils,org.wso2.carbon.governance.registry.extensions.inte
+ rfaces,org.wso2.carbon.registry.core.jdbc.handlers",org.wso2.lc.execu
+ tor.sample,org.wso2.lc.executor.sample.utils;uses:="org.apache.axis2.
+ transport.mail,org.apache.axis2.engine,javax.mail.internet,org.wso2.l
+ c.executor.sample,org.apache.axis2.context,org.wso2.carbon.registry.e
+ venting.internal,javax.mail,org.apache.axis2.description,org.apache.c
+ ommons.logging,org.wso2.lc.executor.sample.Constants"
+Bundle-Version: 1.0.0
+Bundle-Name: org.wso2.lc.executor.sample
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_77
+
